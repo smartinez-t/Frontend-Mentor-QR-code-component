@@ -11,7 +11,7 @@ body {
 
 .tarjeta {
   width: 310px;
-  height: 470px; 
+  height: 480px; 
   background: hsl(0, 0%, 100%);
   border-radius: 15px;
   display: flex;
