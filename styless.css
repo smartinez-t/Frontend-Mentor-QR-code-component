@@ -10,8 +10,8 @@ body {
 
 
 .tarjeta {
-  width: 300px;
-  height: 450px; 
+  width: 310px;
+  height: 470px; 
   background: hsl(0, 0%, 100%);
   border-radius: 15px;
   display: flex;
@@ -23,19 +23,23 @@ body {
 
 .tarjeta img {
   width: 90%;
-  margin-top:10px;
+  margin-top:15px;
   border-radius: 10px;
   height: 60%; 
   object-fit: cover; 
 }
 
 .tarjeta h1 {
-  height: 16%;
+  height: 15%;
   font-size: 20px;
   margin: 0;
-  padding: 15px 15px 0 15px;
-  width:82%;
-  font-weight: 700;
+  padding: 10px 15px 0 15px;
+  width:85%;
+  
+ position: relative;
+  top: 10px;
+  font-weight: 600;
+  
 }
 
 .tarjeta p {
@@ -43,7 +47,7 @@ body {
   align-items: top;
   justify-content: center;
   height: 16%;
-  width: 75%;
+  width: 80%;
   font-size: 14px;
   color: hsl(216, 15%, 48%);
   padding: 0 10px 0 10px;
