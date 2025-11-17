@@ -1,0 +1,53 @@
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #D5E1EF;
+  font-family: "Outfit", sans-serif;
+  font-size:15px;
+}
+
+
+.tarjeta {
+  width: 300px;
+  min-width:width;
+  min-height: height;
+  height: 450px; /* importante definir una altura para que existan porcentajes */
+  background: hsl(0, 0%, 100%);
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align:center;
+  overflow: hidden; /* para que la imagen respete los bordes */
+}
+
+.tarjeta img {
+  width: 90%;
+  margin-top:10px;
+  border-radius: 10px;
+  height: 60%; /* ← aquí está la proporción */
+  object-fit: cover; /* para que la imagen no se distorsione */
+}
+
+.tarjeta h1 {
+  height: 16%;
+  font-size: 20px;
+  margin: 0;
+  padding: 15px 15px 0 15px;
+  width:82%;
+  font-weight: 700;
+}
+
+.tarjeta p {
+  display:flex;
+  align-items: top;
+  justify-content: center;
+  height: 16%;
+  width: 75%;
+  font-size: 14px;
+  color: hsl(216, 15%, 48%);
+  padding: 0 10px 0 10px;
+  margin: 0;
+}
